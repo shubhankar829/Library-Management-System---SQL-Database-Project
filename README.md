@@ -17,7 +17,7 @@ _3.Advanced Queries:_ SQL functions such as filtering, aggregation, ordering, an
 _4.Practical Use Cases:_ Scenarios include listing students by class, finding books with specific characteristics, identifying the oldest/youngest students, and grouping records for efficient data retrieval.
 
 **DDL and DML Statement:**
-
+```
 CREATE TABLE students (
     studentId INT PRIMARY KEY,
     name VARCHAR(50),
@@ -97,3 +97,4 @@ INSERT INTO borrows (borrowId, studentId, bookId, takenDate, broughtDate) VALUES
 (2, 2, 2, '2024-01-15', '2024-01-25'),
 (3, 3, 3, '2024-01-20', '2024-01-30'),
 (4, 4, 4, '2024-02-01', '2024-02-11');
+```
